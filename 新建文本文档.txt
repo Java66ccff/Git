@@ -1,0 +1,9 @@
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-grizzly2 \
+-DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \
+-DgroupId=Qapp -DartifactId=simple-service -Dpackage=api \
+-DarchetypeVersion=2.25.1
+
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp \
+                -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \
+                -DgroupId=Xapp -DartifactId=simple-service-webapp -Dpackage=com.api \
+                -DarchetypeVersion=2.25.1
