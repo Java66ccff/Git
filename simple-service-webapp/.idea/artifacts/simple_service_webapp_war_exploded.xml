@@ -24,6 +24,9 @@
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.31" />
+          <element id="library" level="project" name="Maven: org.testng:testng:6.11" />
+          <element id="library" level="project" name="Maven: com.beust:jcommander:1.64" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
         </element>
       </element>
       <element id="directory" name="META-INF">

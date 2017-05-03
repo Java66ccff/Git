@@ -38,13 +38,13 @@ public class MyResource {
     }
 
     @POST
-    @Produces(MediaType.TEXT_PLAIN)
+//    @Produces("application/json")
     public String postIt() {
         return "用户：张三post";
     }
 
-    @PUT
-    @Produces(MediaType.TEXT_PLAIN)
+    @GET
+//    @Produces("application/json")
     public String putIt() {
         return "用户：张三post";
     }

@@ -1,0 +1,15 @@
+接口：http://localhost:8080/api/logo
+请求方式：post
+请求参数：
+    Body：x-www-from-urlencoded
+    name        必填
+    pws         必填
+结果存储用户name,pws到本地，以json格式存储
+
+接口：http://localhost:8080/api/select
+请求方式：post
+请求参数：
+    url参数：
+    name   必填
+根据name返回用户参数
+
