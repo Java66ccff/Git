@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * Created by soft01 on 2017/5/2.
  */
-@Path("select")
+@Path("user")
 public class select_Logo {
     @POST
     @Produces(MediaType.APPLICATION_JSON)

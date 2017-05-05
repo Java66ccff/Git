@@ -8,7 +8,6 @@ import com.alibaba.fastjson.JSON;
 public class User {
     private String name;
     private String psw;
-
     public String getName() {
         return name;
     }

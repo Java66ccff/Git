@@ -36,7 +36,7 @@ public class MyResource {
         String jsonString = JSON.toJSONString(group);
         return jsonString;
     }
-
+    @Path("add")
     @POST
 //    @Produces("application/json")
     public String postIt() {

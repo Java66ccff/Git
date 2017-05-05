@@ -13,7 +13,12 @@ public class Util {
     private static File file;
     private static int status;
     static {
+
         file=new File("D:/MyGit/Git/simple-service-webapp/date.txt");
+//        file=new File("./date.txt");
+//        file=new File(request.getSession().getServletContext().getRealPath("/WEB-INF/resource/test.txt"));
+//        System.out.println(file.getPath());
+
     }
     /*
       写入数据
